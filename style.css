@@ -890,6 +890,14 @@ body{
   pointer-events: none;
   white-space: nowrap;
 }
+@media (max-width: 500px){
+  .contact-bg{
+    font-size: 45px;
+  }
+  .contact-bg::before{
+    font-size: 75px;
+  }
+}
 .contact-container{
   max-width: 1200px;
   margin: 80px auto;
@@ -917,6 +925,11 @@ body{
   font-size: 50px;
   text-align: center;
   margin-bottom: 30px;
+}
+@media(max-width: 500px){
+  .contact-form h2{
+    font-size: 40px;
+  }
 }
 form{
   width: 100%;
