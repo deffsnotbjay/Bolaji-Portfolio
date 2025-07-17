@@ -47,5 +47,40 @@ document.addEventListener('DOMContentLoaded', function() {
         headline.innerHTML = messages[index].headline;
         subtext.innerHTML = messages[index].subtext;
         heroText.classList.remove("fade-out");
-      }, 1200);
+      }, 1500);
     }, 5000);
+
+
+const counters = document.querySelectorAll('#stats h3');
+  let started = false;
+
+  function animateCount(el, target) {
+    let count = 0;
+    const speed = 200; 
+    const increment = Math.ceil(target / speed);
+
+    const updateCount = () => {
+      count += increment;
+      if (count >= target) {
+        el.textContent = target.toLocaleString();
+      } else {
+        el.textContent = count.toLocaleString();
+        requestAnimationFrame(updateCount);
+      }
+    };
+    updateCount();
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !started) {
+        counters.forEach(counter => {
+          const target = +counter.getAttribute('data-target');
+          animateCount(counter, target);
+        });
+        started = true;
+      }
+    });
+  }, { threshold: 0.5 });
+
+  observer.observe(document.querySelector('#stats'));
