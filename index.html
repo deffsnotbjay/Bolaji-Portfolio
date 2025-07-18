@@ -12,356 +12,417 @@
   <title>Bolaji- Web Developer</title>
 </head>
 <body>
-  <!--navbar-->
-  <nav class="navbar">
-    <div class="logo"><img src="/pics/ewedu-removebg-preview.png" width="125px" alt=""></div>
 
-    <div class="hamburger-menu" id="hamburgerMenu">
-      <span></span>
-      <span></span>
-      <span></span>
+    <div id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-text">Loading...</div>
+            <div class="loading-bar-container">
+                <div class="loading-bar"></div>
+            </div>
+        </div>
     </div>
+  <main id="main-content">
+    <!--navbar-->
+    <nav class="navbar">
+      <div class="logo"><img src="/pics/ewedu-removebg-preview.png" width="125px" alt=""></div>
 
-    <ul class="menu">
-      <li><a href="#about">ABOUT ME</a></li>
-      <li><a href="#service">SERVICE</a></li>
-      <li><a href="#skills">SKILLS</a></li>
-      <li><a href="#work">MY WORKS</a></li>
-      <li><a href="#contact">CONTACTS</a></li>
-      
-    </ul>
-    <div class="icons" id="icondesktop">
-      <a href="#" class="download-btn" download>Download CV</a>
-    </div>
+      <div class="hamburger-menu" id="hamburgerMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-    <div class="mobile-menu-content" id="mobileMenuContent">
-      <ul class="navbar-links-mobile">
-        <li><a href="#about">ABOUT</a></li>
+      <ul class="menu">
+        <li><a href="#about">ABOUT ME</a></li>
         <li><a href="#service">SERVICE</a></li>
         <li><a href="#skills">SKILLS</a></li>
         <li><a href="#work">MY WORKS</a></li>
         <li><a href="#contact">CONTACTS</a></li>
         
       </ul>
-    </div>
-  </nav>
-
-  <section class="hero" id="hero">
-    <div class="overlay"></div>
-    <div class="hero-text" id="herotext">
-      <h4 id="headline">Hello!</h4>
-      <h1 id="subtext">I'm a <span class="name">Full-Stack Developer</span><br> based in Nigeria</h1>
-      <div class="button">
-        <a href="#about" class="hire">Read More</a>
-        <a href="#work" class="work">My Work</a>
+      <div class="icons" id="icondesktop">
+        <a href="#" class="download-btn" download>Download CV</a>
       </div>
-    </div>
 
-    <div class="sidebar">
-      <p>E: omobolajiologunde@gmail.com</p>
-      <p>T: +234 813 230 2526</p>
-    </div>
-    
-  </section>
+      <div class="mobile-menu-content" id="mobileMenuContent">
+        <ul class="navbar-links-mobile">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#service">SERVICE</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#work">MY WORKS</a></li>
+          <li><a href="#contact">CONTACTS</a></li>
+          
+        </ul>
+      </div>
+    </nav>
 
-  <!--about-->
-  <section id="about" class="about">
-    <div class="about-img">
-      <img src="/pics/profile.jpeg" alt="Profile Image"/>
-    </div>
-    <div class="about-text">
-      <h1 class="main-title">
-        About Me
-        <span class="background-title">About</span>
+    <section class="hero" id="hero">
+      <div class="overlay"></div>
+      <div class="hero-text" id="herotext">
+        <h4 id="headline">Hello!</h4>
+        <h1 id="subtext">I'm a <span class="name">Full-Stack Developer</span><br> based in Nigeria</h1>
+        <div class="button">
+          <a href="#about" class="hire">Read More</a>
+          <a href="#work" class="work">My Work</a>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <p>E: omobolajiologunde@gmail.com</p>
+        <p>T: +234 813 230 2526</p>
+      </div>
+      
+    </section>
+
+    <!--about-->
+    <section id="about" class="about">
+      <div class="about-img">
+        <img src="/pics/profile.jpeg" alt="Profile Image"/>
+      </div>
+      <div class="about-text">
+        <h1 class="main-title">
+          About Me
+          <span class="background-title">About</span>
+        </h1>
+        <p>
+          Hi, I'm <span class="highlight">Bolaji</span>, a passionate 
+          <span class="highlight">Full-Stack Web Developer</span> with expertise in 
+          <span class="highlight"> PHP, HTML, CSS</span>, and 
+          <span class="highlight">JavaScript</span>. Based in 
+          <span class="highlight">Lagos, Nigeria</span>, I specialize in crafting 
+          innovative, user-friendly, and responsive web solutions that bridge creativity and functionality.
+        </p>
+        <p>
+          I combine technical expertise with a flair for 
+          <span class="highlight">UI/UX design</span>, leveraging tools like 
+          <span class="highlight">Figma</span>, and 
+          <span class="highlight">Canva</span> to create visually compelling interfaces.
+        </p>
+        <p>
+          I believe in simplicity, efficiency, and a user-first approach. My goal is to deliver 
+          exceptional digital experiences. Let's create something amazing together!
+        </p>
+        <div class="completed">
+          <span class="highlight-number">26</span> Projects completed
+        </div>
+        <a href="html_css_js.pdf" class="download-btn" download>Download CV</a>
+      </div>
+    </section>
+
+    <section id="service" class="services">
+        <h1 class="title">
+          My <span style="color: #30d99c;">Service</span>
+        </h1>
+
+        <div class="service">
+          <div class="service-card">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="service-title">WEB DESIGN</div>
+            <div class="underline"></div>
+          </div>
+          <div class="service-card ">
+            <i class="fa-solid fa-code"></i>
+            <div class="service-title">WEB DEVELOPMENT</div>
+            <div class="underline"></div>
+          </div>
+          <div class="service-card">
+            <i class="fa-regular fa-lightbulb"></i>
+            <div class="service-title">GRAPHIC DESIGN</div>
+            <div class="underline"></div>
+          </div>
+          <div class="service-card">
+            <i class="fa-solid fa-server"></i>
+            <div class="service-title">WEB MANAGEMENT</div>
+            <div class="underline"></div>
+          </div>
+          <div class="service-card">
+            <i class="fa-solid fa-microscope"></i>
+            <div class="service-title">BRANDING</div>
+            <div class="underline"></div>
+          </div>
+          <div class="service-card">
+            <i class="fa-solid fa-pen-ruler"></i>
+            <div class="service-title">UI/UX DESIGN</div>
+            <div class="underline"></div>
+          </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h1 class="skill-bg">
+        My Skills
       </h1>
-      <p>
-        Hi, I'm <span class="highlight">Bolaji</span>, a passionate 
-        <span class="highlight">Full-Stack Web Developer</span> with expertise in 
-        <span class="highlight"> PHP, HTML, CSS</span>, and 
-        <span class="highlight">JavaScript</span>. Based in 
-        <span class="highlight">Lagos, Nigeria</span>, I specialize in crafting 
-        innovative, user-friendly, and responsive web solutions that bridge creativity and functionality.
-      </p>
-      <p>
-        I combine technical expertise with a flair for 
-        <span class="highlight">UI/UX design</span>, leveraging tools like 
-        <span class="highlight">Figma</span>, and 
-        <span class="highlight">Canva</span> to create visually compelling interfaces.
-      </p>
-      <p>
-        I believe in simplicity, efficiency, and a user-first approach. My goal is to deliver 
-        exceptional digital experiences. Let's create something amazing together!
-      </p>
-      <div class="completed">
-        <span class="highlight-number">26</span> Projects completed
-      </div>
-      <a href="html_css_js.pdf" class="download-btn" download>Download CV</a>
-    </div>
-  </section>
+      <div class="skills-container">
 
-  <section id="service" class="services">
-      <h1 class="title">
-        My <span style="color: #30d99c;">Service</span>
+        <div class="skill">
+          <div class="skill-name">
+            <span>HTML5</span>
+            <span>95%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 95%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">
+            <span>CSS3</span>
+            <span>90%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">
+            <span>JavaScript</span>
+            <span>80%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 80%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">
+            <span>PHP</span>
+            <span>75%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 75%;"></div>
+          </div>
+        </div>
+
+      <div class="skill">
+          <div class="skill-name">
+            <span>Photoshop</span>
+            <span>85%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+          </div>
+        </div>
+
+      <div class="skill">
+          <div class="skill-name">
+            <span>MySQL</span>
+            <span>90%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%;"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="works" id="work">
+      <h1 class="work-bg">
+        My <span class="highlight">Works</span>
       </h1>
 
-      <div class="service">
-        <div class="service-card">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <div class="service-title">WEB DESIGN</div>
-          <div class="underline"></div>
+      <div class="myworks">
+        <div class="project">
+          <img src="pics/havenmade.png" width="100%" alt="">
+          <h2>Havenmade</h2>
+          <h3><i class="fa-solid fa-bars-progress" style="color: #30d99c;"></i> Project Description</h3>
+          <p>An Interior design Website </p>
+          <h3><i class="fa-solid fa-code" style="color: #30d99c;"></i> Code Used</h3>
+          <div>
+            <span class="code-used"><i class="fa-brands fa-html5" style="color: #30d99c;"></i> Html5</span>
+            <span class="code-used"><i class="fa-brands fa-css3-alt" style="color: #30d99c;"></i> CSS3</span>
+            <span class="code-used"><i class="fa-brands fa-js" style="color: #30d99c;"></i> JavaScript</span>
+          </div>
+          <a href="https://havenmade.vercel.app/" target="_blank" class="view">View Project</a>
         </div>
-        <div class="service-card ">
-          <i class="fa-solid fa-code"></i>
-          <div class="service-title">WEB DEVELOPMENT</div>
-          <div class="underline"></div>
+        <div class="project">
+          <h2>CoreTrade</h2>
+          <h3><i class="fa-solid fa-bars-progress" style="color: #30d99c;"></i> Project Description</h3>
+          <p>A Trading Website</p>
+          <h3><i class="fa-solid fa-code" style="color: #30d99c;"></i> Code Used</h3>
+          <div>
+            <span class="code-used"><i class="fa-brands fa-html5" style="color: #30d99c;"></i> Html5</span>
+            <span class="code-used"><i class="fa-brands fa-css3-alt" style="color: #30d99c;"></i> CSS3</span>
+            <span class="code-used"><i class="fa-brands fa-js" style="color: #30d99c;"></i> JavaScript</span>
+          </div>
+          <a href="" class="view">View Project</a>
         </div>
-        <div class="service-card">
-          <i class="fa-regular fa-lightbulb"></i>
-          <div class="service-title">GRAPHIC DESIGN</div>
-          <div class="underline"></div>
+        <div class="project">
+          <h2>GlobalDrift</h2>
+          <h3><i class="fa-solid fa-bars-progress" style="color: #30d99c;"></i> Project Description</h3>
+          <p>An airline Website </p>
+          <a href="" class="view">View Project</a>
         </div>
-        <div class="service-card">
-          <i class="fa-solid fa-server"></i>
-          <div class="service-title">WEB MANAGEMENT</div>
-          <div class="underline"></div>
+        <div class="project">
+          <h2>Havenmade</h2>
+          <h3><i class="fa-solid fa-bars-progress" style="color: #30d99c;"></i> Project Description</h3>
+          <p>An Interior design Website </p>
+          <a href="" class="view">View Project</a>
         </div>
-        <div class="service-card">
-          <i class="fa-solid fa-microscope"></i>
-          <div class="service-title">BRANDING</div>
-          <div class="underline"></div>
+        <div class="project">
+          <h2>Havenmade</h2>
+          <h3><i class="fa-solid fa-bars-progress" style="color: #30d99c;"></i> Project Description</h3>
+          <p>An Interior design Website </p>
+          <a href="" class="view">View Project</a>
         </div>
-        <div class="service-card">
-          <i class="fa-solid fa-pen-ruler"></i>
-          <div class="service-title">UI/UX DESIGN</div>
-          <div class="underline"></div>
-        </div>
-      </div>
-  </section>
-
-  <section class="skills" id="skills">
-    <h1 class="skill-bg">
-      My Skills
-    </h1>
-    <div class="skills-container">
-
-      <div class="skill">
-        <div class="skill-name">
-          <span>HTML5</span>
-          <span>95%</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" style="width: 95%;"></div>
-        </div>
-      </div>
-
-      <div class="skill">
-        <div class="skill-name">
-          <span>CSS3</span>
-          <span>90%</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" style="width: 90%;"></div>
+        <div class="project">
+          <h2>Havenmade</h2>
+          <h3><i class="fa-solid fa-bars-progress" style="color: #30d99c;"></i> Project Description</h3>
+          <p>An Interior design Website </p>
+          <a href="" class="view">View Project</a>
         </div>
       </div>
+    </section>
 
-      <div class="skill">
-        <div class="skill-name">
-          <span>JavaScript</span>
-          <span>80%</span>
+    <section class="stats" id="stats">
+      <div class="stats-container">
+        <div class="stat">
+          <h3 data-target="100000">0</h3>
+          <p>Lines of Code</p>
         </div>
-        <div class="progress-bar">
-          <div class="progress" style="width: 80%;"></div>
+        <div class="stat">
+          <h3 data-target="26">0</h3>
+          <p>Projects Done</p>
         </div>
-      </div>
-
-      <div class="skill">
-        <div class="skill-name">
-          <span>PHP</span>
-          <span>75%</span>
+        <div class="stat">
+          <h3 data-target="16">0</h3>
+          <p>Happy Customers</p>
         </div>
-        <div class="progress-bar">
-          <div class="progress" style="width: 75%;"></div>
+        <div class="stat">
+          <h3 data-target="100">0</h3>
+          <p>Shots of Tequila</p>
         </div>
       </div>
 
-     <div class="skill">
-        <div class="skill-name">
-          <span>Photoshop</span>
-          <span>85%</span>
+      <div class="cta">
+        <h1>I'm <span class="highlight">Available</span> for freelancing</h1>
+        <a href="" class="Hire">HIRE ME</a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1 class="contact-bg">
+        Contact Me
+      </h1>
+      <div class="contact-container">
+        <div class="contact-image">
+          <img src="pics/progammer.jpeg" alt="">
         </div>
-        <div class="progress-bar">
-          <div class="progress" style="width: 85%;"></div>
-        </div>
-      </div>
-
-     <div class="skill">
-        <div class="skill-name">
-          <span>MySQL</span>
-          <span>90%</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" style="width: 90%;"></div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="works" id="work">
-    <h1 class="work-bg">
-      My <span class="highlight">Works</span>
-    </h1>
-
-    <div class="myworks">
-      <div class="project">
-        <img src="pics/havenmade.png" width="100%" alt="">
-        <h2>Havenmade</h2>
-        <h3><i class="fa-solid fa-bars-progress" style="color: #30d99c;"></i> Project Description</h3>
-        <p>An Interior design Website </p>
-        <h3><i class="fa-solid fa-code" style="color: #30d99c;"></i> Code Used</h3>
-        <div>
-          <span class="code-used"><i class="fa-brands fa-html5" style="color: #30d99c;"></i> Html5</span>
-          <span class="code-used"><i class="fa-brands fa-css3-alt" style="color: #30d99c;"></i> CSS3</span>
-          <span class="code-used"><i class="fa-brands fa-js" style="color: #30d99c;"></i> JavaScript</span>
-        </div>
-        <a href="https://havenmade.vercel.app/" target="_blank" class="view">View Project</a>
-      </div>
-      <div class="project">
-        <h2>CoreTrade</h2>
-        <h3><i class="fa-solid fa-bars-progress" style="color: #30d99c;"></i> Project Description</h3>
-        <p>A Trading Website</p>
-        <h3><i class="fa-solid fa-code" style="color: #30d99c;"></i> Code Used</h3>
-        <div>
-          <span class="code-used"><i class="fa-brands fa-html5" style="color: #30d99c;"></i> Html5</span>
-          <span class="code-used"><i class="fa-brands fa-css3-alt" style="color: #30d99c;"></i> CSS3</span>
-          <span class="code-used"><i class="fa-brands fa-js" style="color: #30d99c;"></i> JavaScript</span>
-        </div>
-        <a href="" class="view">View Project</a>
-      </div>
-      <div class="project">
-        <h2>GlobalDrift</h2>
-        <h3><i class="fa-solid fa-bars-progress" style="color: #30d99c;"></i> Project Description</h3>
-        <p>An airline Website </p>
-        <a href="" class="view">View Project</a>
-      </div>
-      <div class="project">
-        <h2>Havenmade</h2>
-        <h3><i class="fa-solid fa-bars-progress" style="color: #30d99c;"></i> Project Description</h3>
-        <p>An Interior design Website </p>
-        <a href="" class="view">View Project</a>
-      </div>
-      <div class="project">
-        <h2>Havenmade</h2>
-        <h3><i class="fa-solid fa-bars-progress" style="color: #30d99c;"></i> Project Description</h3>
-        <p>An Interior design Website </p>
-        <a href="" class="view">View Project</a>
-      </div>
-      <div class="project">
-        <h2>Havenmade</h2>
-        <h3><i class="fa-solid fa-bars-progress" style="color: #30d99c;"></i> Project Description</h3>
-        <p>An Interior design Website </p>
-        <a href="" class="view">View Project</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="stats" id="stats">
-    <div class="stats-container">
-      <div class="stat">
-        <h3 data-target="100000">0</h3>
-        <p>Lines of Code</p>
-      </div>
-      <div class="stat">
-        <h3 data-target="26">0</h3>
-        <p>Projects Done</p>
-      </div>
-      <div class="stat">
-        <h3 data-target="16">0</h3>
-        <p>Happy Customers</p>
-      </div>
-      <div class="stat">
-        <h3 data-target="100">0</h3>
-        <p>Shots of Tequila</p>
-      </div>
-    </div>
-
-    <div class="cta">
-      <h1>I'm <span class="highlight">Available</span> for freelancing</h1>
-      <a href="" class="Hire">HIRE ME</a>
-    </div>
-  </section>
-
-  <section class="contact" id="contact">
-    <h1 class="contact-bg">
-      Contact Me
-    </h1>
-    <div class="contact-container">
-      <div class="contact-image">
-        <img src="pics/progammer.jpeg" alt="">
-      </div>
-      <div class="contact-form">
-        <h2>Contact Me</h2>
-        <form action="">
-          <div class="row">
-            <div class="group">
-              <label for="First">First Name</label>
-              <input type="text" name="" id="First" placeholder="First Name" required>
+        <div class="contact-form">
+          <h2>Contact Me</h2>
+          <form action="">
+            <div class="row">
+              <div class="group">
+                <label for="First">First Name</label>
+                <input type="text" name="" id="First" placeholder="First Name" required>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="group">
-              <label for="Last">Last Name</label>
-              <input type="text" name="" id="Last" placeholder="Last Name" required>
+            <div class="row">
+              <div class="group">
+                <label for="Last">Last Name</label>
+                <input type="text" name="" id="Last" placeholder="Last Name" required>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="group">
-              <label for="Email">Email</label>
-              <input type="email" name="" id="Email" placeholder="Email" required>
+            <div class="row">
+              <div class="group">
+                <label for="Email">Email</label>
+                <input type="email" name="" id="Email" placeholder="Email" required>
+              </div>
             </div>
+            <div class="group">
+              <label for="message">Message</label>
+              <textarea name="" id="message" rows="5" placeholder="Write your message here...." required></textarea>
+            </div>
+            <button type="submit" class="send">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="contact-info">
+        <div class="info">
+          <div class="info-circle">
+            <i class="fa-solid fa-signs-post"></i>
           </div>
-          <div class="group">
-            <label for="message">Message</label>
-            <textarea name="" id="message" rows="5" placeholder="Write your message here...." required></textarea>
+          <h2>Address</h2>
+          <p>Lagos, Nigeria</p>
+        </div>
+        <div class="info">
+          <div class="info-circle">
+            <i class="fa-solid fa-paper-plane"></i>
           </div>
-          <button type="submit" class="send">
-            Send Message
-          </button>
-        </form>
-      </div>
-    </div>
-    <div class="contact-info">
-      <div class="info">
-        <div class="info-circle">
-          <i class="fa-solid fa-signs-post"></i>
+          <h2>Phone number</h2>
+          <p>+234-890-534-7543</p>
         </div>
-        <h2>Address</h2>
-        <p>Lagos, Nigeria</p>
-      </div>
-      <div class="info">
-        <div class="info-circle">
-          <i class="fa-solid fa-paper-plane"></i>
+        <div class="info">
+          <div class="info-circle">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <h2>Email Address</h2>
+          <p>portfolio@gmail.com</p>
         </div>
-        <h2>Phone number</h2>
-        <p>+234-890-534-7543</p>
-      </div>
-      <div class="info">
-        <div class="info-circle">
-          <i class="fa-solid fa-envelope"></i>
+        <div class="info">
+          <div class="info-circle">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <h2>Website</h2>
+          <p>deffsnotbjay.vercel.app</p>
         </div>
-        <h2>Email Address</h2>
-        <p>portfolio@gmail.com</p>
       </div>
-      <div class="info">
-        <div class="info-circle">
-          <i class="fa-solid fa-globe"></i>
-        </div>
-        <h2>Website</h2>
-        <p>deffsnotbjay.vercel.app</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section abt">
+          <h3>About</h3>
+          <p>
+            A 17-year-old full-stack developer from Lagos, Nigeria, mastering front-end and back-end like Html, React, Css, JavaScript, MySQL and MongoDB. He’s building cutting-edge projects in Interior-design, crypto, and airline, always pushing the limits of creativity and code. When not coding, he’s exploring tech trends, films, or sports.
+          </p>
+          <div class="social-icons">
+            <a href="#" title="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" title="instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-section links">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="#">→ Home</a></li>
+            <li><a href="#">→ About</a></li>
+            <li><a href="#">→ Services</a></li>
+            <li><a href="#">→ Projects</a></li>
+            <li><a href="#">→ Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section serv">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#">→ Web Design</a></li>
+            <li><a href="#">→ Web Development</a></li>
+            <li><a href="#">→ Branding</a></li>
+            <li><a href="#">→ Web Management</a></li>
+            <li><a href="#">→ Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section cont">
+          <h3>Have a Questions?</h3>
+          <div class="item">
+            <p><i class="fas fa-map-marker-alt"></i> Lagos State, Nigeria</p>
+          </div>
+          <div class="item">
+            <p><i class="fas fa-phone"></i> +234-816-141-2674</p>
+          </div>
+          <div class="item">
+            <p><i class="fas fa-envelope"></i> omobolajiologunde@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
 
   <script src="portfolio.js"></script>
 </body>
