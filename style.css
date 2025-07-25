@@ -42,16 +42,28 @@ body{
     visibility: hidden;
 }
 
-.loading-text {
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 10px;
-  color: #aaa; 
+.loading-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.loading-text {
+  margin-bottom: 20px;
+}
+.loading-text img{
+  width: 100px;
+  height: 100px;
+  animation: logo 2s linear infinite;
+}
+@keyframes logo{
+  to{
+    transform: rotate(360deg);
+  }
+}
 .loading-bar-container {
     width: 300px;
-    height: 20px;
+    height: 10px;
     background-color: #333; 
     border-radius: 10px;
     overflow: hidden; 
@@ -173,6 +185,7 @@ body{
     border-radius: 2px;
     transition: all 0.3s ease-in-out;
 }
+
 .hamburger-menu.active span:nth-child(1) {
     transform: translateY(10px) rotate(45deg); 
 }
